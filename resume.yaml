@@ -1,0 +1,59 @@
+name: Gregorio Martinez
+email: myemail@example.com
+phone: (555) 555-5555
+address: New York, New York
+website: https://www.gmartinez.com
+
+profiles: 
+    - link: https://www.github.com/GregorioMartinez
+
+experience:
+    - 
+        name: Marketing Agency
+        title: Lead Developer
+        startdate: November 2011
+        enddate: Present
+        summary:
+            - Built and maintained responsive websites for clients in various industries
+            - Work with design team to ensure sites met performance budgets without compromising the integrity of the design
+            - Mentor new developers
+            - Perform code reviews for peers
+    - 
+        name: Foobar
+        title: Web Developer
+        startdate: April 2011
+        enddate: November 2011
+        summary:
+            - Code websites based on mocks provided by design team
+            - Provide direct support to clients
+
+projects:
+    - 
+        name: resume-generator
+        link: https://github.com/gregoriomartinez/resume-generator
+        summary: 
+           - Convert YAML to HTMl resume
+
+    - 
+        name: Open Source - DuckDuckGo
+        link: https://duckduckgo.com/
+        summary: 
+            - Worked with DDG's open source team to implement "Instant Answers"
+            - Wrote and updated various documentation surrounding "Instant Answers"
+
+education: 
+    -
+        name: School A
+        title: M.S - Computer Science
+    -
+        name: School B
+        title: B.S -  Graphic Design
+
+skills: 
+    languages: Go, HTML, Java, Javascript
+    technologies: React, Node, Gin
+    cms: WordPress, Drupal
+
+certifications:
+    - name: Google Tag Manager
+    - name: Google Analytics
