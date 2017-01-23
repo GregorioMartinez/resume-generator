@@ -13,15 +13,15 @@ resume-generator -input resume.yaml -output resume.html
 ```
 ## Flags
 
-```
-// Specify YAML Or JSON file name to use read data from.
-// Defaults to resume.yaml
--input 
+`-input` 
+Specify YAML Or JSON file name to use read data from.
+Defaults to resume.yaml
 
-// Specify output filename
-// If is left blank then writes to STDOUT
--output
-```
+
+`-output`
+Specify output filename
+If is left blank then writes to STDOUT
+
 
 ## PDF Support
 Writing PDF's is out of the scope of this project at the moment.
@@ -34,5 +34,5 @@ The easiest way to write PDF's would be to pipe the output to a tool  such as `w
 
 
 ### Credits
-[jsonresume-theme-onepage](https://github.com/ainsleyc/jsonresume-theme-onepage) is used as the only template.
+[jsonresume-theme-onepage](https://github.com/ainsleyc/jsonresume-theme-onepage) is the template used in `templates/template.tpl`
 
